@@ -1,1 +1,4 @@
 # Mech458-Mechatronics
+This program controls a mechatronics inspection system that sorts four materials based on reflectivity. A DC motor powers a conveyor belt, which transports materials through a reflectivity sensor to classify them and add them into a linked list. An optical sensor marks the end of the conveyor, and when triggered the part is dequeued from the linked list and the material is sorted into a stepper-powered bucket.
+
+Two switches are used to (1) pause and resume the system, and (2) rampdown the system. The pause switch stops the conveyor and displays the count of each sorted material and the count of the unsorted materials. A second press of the button resumes the conveyor and clears the LCD. The rampdown switch sorts the remaining materials on the conveyor then kills the system.
